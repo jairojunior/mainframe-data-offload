@@ -1,0 +1,13 @@
+<beanio xmlns="http://www.beanio.org/2012/03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.beanio.org/2012/03 http://www.beanio.org/2012/03/mapping.xsd">
+    <stream name="employeeFile" format="fixedlength">
+        <record name="employee" class="com.acme.mainframe.model.Employee" />
+    </stream>
+
+    <stream name="departamentFile" format="fixedlength">
+        <record name="department" class="com.acme.mainframe.model.Department" />
+    </stream>
+
+    <stream name="expensesFile" format="fixedlength">
+        <record name="expenses" class="com.acme.mainframe.model.Expense" />
+    </stream>
+</beanio>
